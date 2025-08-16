@@ -1,0 +1,56 @@
+# KSEF Digital Judging App (Local Version)
+
+A full-stack judging platform for the Kenya Science and Engineering Fair, built with React, Tailwind CSS, and local data storage.
+
+**Features:**
+- Scientific dark theme with rounded corners
+- Project registration
+- Digital scorecard with KSEF scheme (editable for actual criteria)
+- Judge notes
+- Real-time dashboard
+- No backend required—data is stored in localStorage
+
+## Getting Started
+
+1. **Clone this repo or copy the files into a new Vite/React TypeScript project:**
+    ```bash
+    npx create-vite@latest ksef-digital-judging-app --template react-ts
+    cd ksef-digital-judging-app
+    # Replace/add files as above
+    ```
+
+2. **Install dependencies:**
+    ```bash
+    npm install
+    ```
+
+3. **Install Tailwind CSS:**
+    ```bash
+    npm install -D tailwindcss postcss autoprefixer
+    npx tailwindcss init -p
+    # Copy the tailwind.config.js and postcss.config.js above
+    # Copy the tailwind.css into src/styles/
+    # Make sure to import './styles/tailwind.css' in src/index.tsx
+    ```
+
+4. **Run the app:**
+    ```bash
+    npm run dev
+    ```
+
+5. **Preview/Build:**
+    ```bash
+    npm run build
+    npm run preview
+    ```
+
+## Customization
+
+- Add actual KSEF 2024 marking scheme criteria in `DigitalScorecard.tsx`
+- Add authentication logic if desired
+- Export features can be added in Dashboard
+
+---
+
+**To preview:**  
+- Run `npm run dev` and open the local address (usually [http://localhost:5173](http://localhost:5173)) in your browser.
