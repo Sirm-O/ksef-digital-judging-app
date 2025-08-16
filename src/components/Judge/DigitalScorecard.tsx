@@ -1,0 +1,1 @@
+import React from 'react';\n\nconst DigitalScorecard = () => {\n  return (\n    <div>\n      <h1>Digital Scorecard</h1>\n      {/* Scorecard Logic Here */}\n    </div>\n  );\n};\n\nexport default DigitalScorecard;\n

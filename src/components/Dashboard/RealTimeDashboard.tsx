@@ -1,0 +1,1 @@
+import React from 'react';\n\nconst RealTimeDashboard = () => {\n  return (\n    <div>\n      <h1>Real-Time Dashboard</h1>\n      {/* Dashboard Logic Here */}\n    </div>\n  );\n};\n\nexport default RealTimeDashboard;\n

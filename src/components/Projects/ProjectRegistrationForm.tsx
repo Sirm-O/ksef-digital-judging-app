@@ -1,0 +1,1 @@
+import React from 'react';\n\nconst ProjectRegistrationForm = () => {\n  return (\n    <form>\n      <h1>Register your project</h1>\n      {/* Form Fields Here */}\n    </form>\n  );\n};\n\nexport default ProjectRegistrationForm;\n
